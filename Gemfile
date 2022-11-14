@@ -11,7 +11,7 @@ gem "activerecord", "~> 6.1"
 # Configures common Rake tasks for working with Active Record
 # https://github.com/sinatra-activerecord/sinatra-activerecord
 gem "sinatra-activerecord"
-
+gem "puma"
 # Run common tasks from the command line
 # https://github.com/ruby/rake
 gem "rake"

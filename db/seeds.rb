@@ -9,7 +9,7 @@ Bakery.create(name: "Westside")
 
 Bakery.all.each do |bakery|
   3.times do
-    BakedGood.create(name: baked_good_names.sample, price: rand(1..5), bakery_id: bakery.id)
+    BakedGood.c-reate(name: baked_good_names.sample, price: rand(1..5), bakery_id: bakery.id)
   end
 end
 
